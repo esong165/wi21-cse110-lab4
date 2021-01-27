@@ -1,6 +1,7 @@
-![Fix](./Break.png)
+![Break](./Break.png)
 - The bug was that we were using num1 and num2 as strings, so "adding" them was really concatenating them.
    This was evidenced by result being a string.
+![Watch](./Watch.png)
 - This could be fixed by converting both num1 and num2 into numbers before adding them.
 ![Fix](./Fix.png)
 1) The json is called citylots.json.
